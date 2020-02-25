@@ -1,0 +1,48 @@
+.container {
+    background-color: white;
+    min-width: 320px;
+    overflow: hidden;
+    border-radius: 6px;
+
+}
+
+td {
+    vertical-align: middle;
+
+}
+
+td:hover{
+    background-color: silver;
+}
+
+td + td {
+    border-left: 1px solid gray;
+}
+
+tr + tr {
+    border-top: 1px solid gray;
+}
+
+.button {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 24px;
+}
+
+.equalButton {
+    background-color: #F78967;
+}
+
+.equalButton:hover{
+    background-color: #fa6f3c;
+}
+
+.controlButton {
+    background-color: #E9E9E9;
+}
+.controlButton:hover{
+    background-color: gray;
+}

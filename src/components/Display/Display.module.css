@@ -1,0 +1,10 @@
+.display {
+    background-color: #252525;
+    color: white;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 24px;
+    text-align: right;
+    overflow: hidden;
+    text-wrap: none;
+}
